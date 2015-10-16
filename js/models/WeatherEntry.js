@@ -7,7 +7,8 @@ var WeatherEntry = Backbone.Model.extend({
     unit: '°F'
   },
 
-  initialize: function() {},
+  initialize: function() {
+  },
 
   toggleUnit: function() {
 

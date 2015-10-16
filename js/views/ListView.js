@@ -22,6 +22,7 @@ var ListView = Backbone.View.extend({
     });
 
     this.$el.append($els);
+    console.log($els);
 
     return this;
   }
